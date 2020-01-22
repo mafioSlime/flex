@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    min-height: 15vh;
+    background: rgba(0,0,0,0.9);
+}
+.logo {
+    flex: 2 1 20rem;
+    color: #fff;
+}
+
+.nav-links {
+    flex: 1 1 20rem;
+    display: flex;
+    justify-content: space-around;
+}
